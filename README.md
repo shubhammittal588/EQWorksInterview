@@ -2,8 +2,6 @@
 
 ##### developed by Shubham Mittal
 
-Based on the detailed instructions below, this challenge is available at [https://paint-gratis-switch.glitch.me](https://paint-gratis-switch.glitch.me)   
-<br>
 
 # Original Instructions
 _____________________
