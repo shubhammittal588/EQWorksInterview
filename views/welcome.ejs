@@ -1,0 +1,127 @@
+<!-- Welcome to EQ Works 😎 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Jquey -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    ></script>
+
+    <!-- My custom css -->
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- Amcharts -->
+    <script src="https://www.amcharts.com/lib/4/core.js"></script>
+    <script src="https://www.amcharts.com/lib/4/charts.js"></script>
+    <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+   crossorigin=""></script>
+
+    <!-- Map Cluster -->
+    <link rel="stylesheet" href="cluster/MarkerCluster.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="cluster/MarkerCluster.Default.css" type="text/css" media="all"/>
+    <script src="cluster/leaflet.markercluster.js"></script>
+
+    <title>EQ Works - Challenges</title>
+  </head>
+
+  <body>
+    <h2>
+      <%=welcome%>
+    </h2>
+    <div id="buttons">
+      <button type="button" class="btn btn-outline-primary">
+        Events Daily
+      </button>
+      <button type="button" class="btn btn-outline-secondary">
+        Events Hourly
+      </button>
+      <button type="button" class="btn btn-outline-success">Stats Daily</button>
+<!--       <button type="button" class="btn btn-outline-danger" disabled>Stats Hourly</button> -->
+      <button type="button" class="btn btn-outline-warning" id="btn-leafletMap">POI</button>
+<!--       <button type="button" class="btn btn-outline-info" id="btn-amchartsMap">POI 2</button> -->
+    </div>
+
+    <div id="statsDailyDiv">
+      <h2>
+        Statistics per Month
+      </h2>
+      <h5>
+        Impressions
+      </h5>
+      <h6>
+        Revenue & Revenue per Thousand Impression
+      </h6>
+      <h6>
+        Click & Clickthrough Rate
+      </h6>
+      <div id="dailyStatsChart"></div>
+      <h5>
+        Stats per Day
+      </h5>
+      <h6>
+        Choose a day
+      </h6>  
+      <form>
+        <input type="date" name="day" min="2017-01-01" max="2017-01-31" class="selected_day"><br>
+      </form>
+      
+      <div id="statsHourlyDiv"></div>
+    </div>
+
+    <div id="eventsHourlyDiv">
+      <h2>
+        Hourly Events
+      </h2>
+      <h6>
+        per Week
+      </h6>
+      <div id="radarchartdiv"></div>
+    </div>
+
+    <div id="eventsDailyDiv">
+      <h5>
+        Daily Events 
+      </h5>
+      <div id="dailyEventsChart"></div>
+      <h5>
+        Events/POI
+      </h5>
+      <h6>
+        per day in a week
+      </h6>
+      <div id="poiEventsChart"></div>
+    </div>
+
+    <div id="mapDiv">
+      <h5>
+        POI
+      </h5>
+      <div id="leafletMap"></div>
+    </div>
+
+    <!-- My custom JS -->
+    <script type="text/javascript" src="stats.js"></script>
+    <script type="text/javascript" src="events.js"></script>
+    <script type="text/javascript" src="leafletMap.js"></script>
+  </body>
+</html>

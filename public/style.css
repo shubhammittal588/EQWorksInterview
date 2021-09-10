@@ -1,0 +1,107 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#eventsDailyDiv,
+#eventsHourlyDiv,
+#statsDailyDiv,
+#statsHourlyDiv,
+#mapDiv {
+  display: none;
+}
+
+#dailyEventsChart {
+  width: 60%;
+  height: 500px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+#poiEventsChart {
+  width: 80%;
+  height: 500px;
+  margin: auto;
+}
+
+#statsHourlyDiv {
+  width: 100%;
+  height: 600px;
+  margin-bottom:50px;
+}
+
+#radarchartdiv {
+  width: 80%;
+  height: 900px;
+  margin: auto;
+}
+
+#statsDailyDiv {
+  text-align: center;
+}
+
+#dailyStatsChart {
+  width: 90%;
+  height: 500px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+#mapdiv-Amcharts {
+  width: 100%;
+  height: 500px;
+  margin: 50px 0 50px 0;
+}
+
+/* #mapDiv {
+*   margin: 40px, 0, 100px, 0;
+*   display: none;
+*} */
+
+#leafletMap {
+  width: 1000px;
+  height: 450px;
+  /* position: relative; */
+  margin: auto;
+}
+
+.table,
+.tabledark,
+#sm {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  padding: 50px 0 20px 0;
+}
+
+h5 {
+  text-align: center;
+  color: rgb(100, 100, 100);
+}
+
+h6 {
+  text-align: center;
+  color: grey;
+  margin-bottom: 80px;
+}
+
+#buttons {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+button {
+  width: 150px;
+}
+
+form {
+  margin: 30px;
+  font-size: 1.2rem;
+}
