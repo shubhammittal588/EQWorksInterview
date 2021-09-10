@@ -3,27 +3,7 @@
 ##### developed by Shubham Mittal
 
 Based on the detailed instructions below, this challenge is available at [https://paint-gratis-switch.glitch.me](https://paint-gratis-switch.glitch.me)   
-<br/>
-<br/>
-<br/>
-### Map with POI and Events Daily
-!["Map with POI and Events Daily"](https://cdn.glitch.com/46f8b5bc-71f1-43d8-a418-9221e34822b5%2FEQWorks_map.gif?v=1579020483742)
-<br/>
-<br/>
-### Events Hourly and details
-!["Events Hourly and details"](https://cdn.glitch.com/46f8b5bc-71f1-43d8-a418-9221e34822b5%2FEQWorks_events.gif?v=1579020530085)
-<br/>
-<br/>
-### Events Hourly and Stats
-!["Events Hourly and Stats"](https://cdn.glitch.com/46f8b5bc-71f1-43d8-a418-9221e34822b5%2FEQWorks_eventsHourly.gif?v=1579020537353)
-<br/>
-<br/>
-### Stats daily detail and first map developed
-!["Stats daily detail and first map developed"](https://cdn.glitch.com/46f8b5bc-71f1-43d8-a418-9221e34822b5%2FEQWorks_stats.gif?v=1579020550221)
-<br/>
-<br/>
-<br/>
-<br/>
+<br>
 
 # Original Instructions
 _____________________
